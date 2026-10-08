@@ -17,7 +17,7 @@ flowchart TD
     Runtime --> Tools[Permission-controlled tools and services]
     Tools --> Adapters[Banking-system integration interfaces]
     Adapters --> Systems[Existing banking systems of record]
-    Tools --> AI[Configured AI-provider boundary]
+    Runtime --> AI[Configured AI-provider boundary]
     Cases --> Store[Durable case and evidence persistence]
     Runtime --> Checkpoints[Checkpoint service]
     Checkpoints --> Store
